@@ -1,0 +1,27 @@
+/* ==============================================================================
+   CALENDAR TABLE CREATION SCRIPT (DAX)
+   In Power BI Desktop:
+   1. Go to Modeling Tab -> Click "New Table"
+   2. Paste the formula below and press Enter
+   3. In Model View, drag 'Calendar'[Date] to connect with 'Sales_Data'[OrderDate]
+   ============================================================================== */
+
+Calendar = 
+VAR MinDate = MIN(Sales_Data[OrderDate])
+VAR MaxDate = MAX(Sales_Data[OrderDate])
+RETURN
+    ADDCOLUMNS(
+        CALENDAR(MinDate, MaxDate),
+        "Year", YEAR([Date]),
+        "Year Quarter", "Q" & FORMAT([Date], "Q") & " " & YEAR([Date]),
+        "Quarter", "Q" & FORMAT([Date], "Q"),
+        "Month Number", MONTH([Date]),
+        "Month Name", FORMAT([Date], "MMMM"),
+        "Month Short", FORMAT([Date], "MMM"),
+        "Month Year", FORMAT([Date], "MMM yyyy"),
+        "Month Year Sort", FORMAT([Date], "yyyyMM"),
+        "Week Number", WEEKNUM([Date]),
+        "Day of Week", FORMAT([Date], "dddd"),
+        "Day of Week Short", FORMAT([Date], "ddd"),
+        "Is Weekend", IF(WEEKDAY([Date], 2) >= 6, "Weekend", "Weekday")
+    )

@@ -1,0 +1,94 @@
+/* ==============================================================================
+   TASK 1: SALES & REVENUE ANALYSIS DASHBOARD - DAX MEASURES
+   Copy and paste these measures directly into Power BI Desktop:
+   Go to: Modeling Tab -> "New Measure" -> Paste each measure formula
+   ============================================================================== */
+
+// -----------------------------------------------------------------------------
+// 1. CORE KPI MEASURES
+// -----------------------------------------------------------------------------
+
+// Total Revenue generated
+Total Sales = 
+SUM(Sales_Data[Sales])
+
+
+// Total Profit generated
+Total Profit = 
+SUM(Sales_Data[Profit])
+
+
+// Total Units / Quantity Sold
+Total Quantity = 
+SUM(Sales_Data[Quantity])
+
+
+// Total Distinct Orders placed
+Total Orders = 
+DISTINCTCOUNT(Sales_Data[OrderID])
+
+
+// Total Distinct Customers served
+Total Customers = 
+DISTINCTCOUNT(Sales_Data[CustomerID])
+
+
+// Profit Margin percentage (Format as Percentage % with 2 decimal places)
+Profit Margin % = 
+DIVIDE([Total Profit], [Total Sales], 0)
+
+
+// Average Order Value (AOV)
+Average Order Value = 
+DIVIDE([Total Sales], [Total Orders], 0)
+
+
+// Average Discount given (Format as Percentage %)
+Average Discount = 
+AVERAGE(Sales_Data[Discount])
+
+
+
+// -----------------------------------------------------------------------------
+// 2. TIME-INTELLIGENCE & GROWTH MEASURES (Requires Calendar Table)
+// -----------------------------------------------------------------------------
+
+// Sales in Previous Year (Same Period Last Year)
+Sales Last Year (LY) = 
+CALCULATE(
+    [Total Sales],
+    SAMEPERIODLASTYEAR('Calendar'[Date])
+)
+
+
+// Year-over-Year (YoY) Revenue Growth Percentage
+YoY Sales Growth % = 
+VAR CurrentSales = [Total Sales]
+VAR PreviousSales = [Sales Last Year (LY)]
+RETURN
+    IF(
+        ISBLANK(PreviousSales),
+        BLANK(),
+        DIVIDE(CurrentSales - PreviousSales, PreviousSales, 0)
+    )
+
+
+// Year-to-Date (YTD) Total Sales
+Sales YTD = 
+TOTALYTD([Total Sales], 'Calendar'[Date])
+
+
+
+// -----------------------------------------------------------------------------
+// 3. RANKING & TOP PERFORMERS
+// -----------------------------------------------------------------------------
+
+// Rank products by Sales amount
+Product Sales Rank = 
+RANKX(
+    ALL(Sales_Data[ProductName]),
+    [Total Sales],
+    ,
+    DESC,
+    Dense
+)
