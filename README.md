@@ -1,14 +1,15 @@
-# 📊 Data Analytics & Machine Learning Capstone Portfolio
+# 📊 Data Analytics, BI & Automation Capstone Portfolio
 
-This repository contains three complete, end-to-end data analytics, business intelligence, and machine learning projects featuring **Power BI**, **DAX**, **Python (scikit-learn)**, and **Interactive Web Prototypes**.
+This repository contains four complete, end-to-end data analytics, business intelligence, machine learning, and data engineering automation projects featuring **Power BI**, **DAX**, **Python (scikit-learn & pandas)**, and **Interactive Web Prototypes**.
 
 ---
 
-## 📑 Portfolio Index
+## 📑 Portfolio Master Index
 
 1. [Task 1: Sales & Revenue Analysis Dashboard](#-task-1-sales--revenue-analysis-dashboard)
 2. [Task 2: Customer Segmentation Project](#-task-2-customer-segmentation-project)
 3. [Task 3: Predictive Analytics & Revenue Forecasting](#-task-3-predictive-analytics--revenue-forecasting)
+4. [Task 4: Data Cleaning & Reporting Automation](#-task-4-data-cleaning--reporting-automation)
 
 ---
 
@@ -117,7 +118,46 @@ Build a predictive forecasting model to forecast future revenue trends using 3 y
 
 ---
 
-## 🛠️ Complete Tech Stack
-* **Business Intelligence:** Microsoft Power BI Desktop, DAX, Power Query (M), Analytics Forecasting
+# 🧹 Task 4: Data Cleaning & Reporting Automation
+
+### 🎯 Objective
+Automate the ingestion, deduplication, error handling, text standardization, and summary reporting of messy raw operational datasets using **Python (Pandas)**, **Excel formulas**, and **Power Query**.
+
+### 🔑 Features & Pipeline Steps
+* **Raw Dirty Input:** 1,500 uncleaned records with duplicate IDs, whitespace, currency strings (`$1,250 USD`), percentage strings (`15%`), missing values, and negative quantities.
+* **Automated Transformations:**
+  1. **Deduplication:** Dropped 850 duplicate order IDs (retained 650 unique verified transactions).
+  2. **Text Normalization:** Trimmed leading/trailing spaces and enforced Proper Title Case (`TRIM`, `PROPER`).
+  3. **Categorical Mapping:** Unified erratic variants (`TECH`, `technology`, `furn.`, `FURNITURE`) into 3 canonical categories.
+  4. **Formula Imputation:** Recalculated missing sales using `Unit_Price * Quantity * (1 - Discount)`.
+  5. **Date Normalization:** Converted multi-format dates to ISO-8601 `YYYY-MM-DD`.
+* **Automated Deliverables:** Automated audit log (`cleaning_audit_summary.json`) and aggregated visual summary charts.
+
+```
++-----------------------------------------------------------------------------------+
+|                 DATA CLEANING & REPORTING AUTOMATION DASHBOARD                    |
+|  [ Ingested: 1,500 ]  [ Duplicates: -850 ]  [ Clean: 650 ]  [ Quality Score: 99.2%]|
++-----------------------------------------------------------------------------------+
+|  [ Raw Dirty Record Preview ]             ➔        [ Clean Sanitized Output ]     |
+|  - Inconsistent whitespace, symbols, negs ➔        - Trimmed, Validated, Imputed  |
++-----------------------------------------------------------------------------------+
+|       Clean Revenue by Category (Bar)      |       Regional Order Volume (Donut)  |
++-----------------------------------------------------------------------------------+
+```
+
+### 📁 Task 4 Deliverables
+* [`raw_uncleaned_sales_data.csv`](./raw_uncleaned_sales_data.csv) — 1,500 raw dirty operational records.
+* [`cleaned_sales_report_data.csv`](./cleaned_sales_report_data.csv) — 650 verified, clean records.
+* [`automated_data_cleaning_pipeline.py`](./automated_data_cleaning_pipeline.py) — Python automated cleaning pipeline.
+* [`Data_Cleaning_PowerQuery.m`](./Data_Cleaning_PowerQuery.m) — One-click Power Query M-code refresh script.
+* [`Data_Cleaning_and_Reporting_Automation.ipynb`](./Data_Cleaning_and_Reporting_Automation.ipynb) — Jupyter Notebook profiling.
+* [`Task4_Cleaning_Automation_Preview.html`](./Task4_Cleaning_Automation_Preview.html) — Interactive Before/After comparison & report dashboard.
+* [`TASK_4_DATA_CLEANING_GUIDE.md`](./TASK_4_DATA_CLEANING_GUIDE.md) — Comprehensive Excel, Power Query, and Python guide.
+* [`TASK_4_FINAL_REPORT.md`](./TASK_4_FINAL_REPORT.md) — Executive data quality audit scorecard.
+
+---
+
+## 🛠️ Complete Portfolio Technologies
+* **Business Intelligence & Reporting:** Microsoft Power BI Desktop, DAX, Power Query (M), Microsoft Excel
 * **Machine Learning & Data Science:** Python, Pandas, NumPy, Scikit-Learn (K-Means, Random Forest Regressor, Linear Regression)
-* **Frontend Visualization:** Chart.js, HTML5, CSS3, Seaborn, Matplotlib
+* **Frontend Visualization & Dashboards:** Chart.js, HTML5, CSS3, Seaborn, Matplotlib

@@ -1,0 +1,8 @@
+{
+    "raw_records_ingested": 1500,
+    "duplicate_records_removed": 850,
+    "missing_values_imputed": 157,
+    "negative_quantities_corrected": 20,
+    "final_cleaned_records": 650,
+    "data_quality_score": "99.2%"
+}

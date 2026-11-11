@@ -1,0 +1,651 @@
+Order_ID,Order_Date,Customer_Name,Region,Category,Unit_Price,Quantity,Discount,Sales_Amount
+ORD-2024-1001,2024-02-02,"Jane Smith",East,Furniture,51.00,2,0.05,96.90
+ORD-2024-1002,2024-03-03,"Michael Brown",Central,Office Supplies,52.00,3,0.10,148.20
+ORD-2024-1003,2024-04-04,"Sarah Wilson",South,Technology,53.00,4,0.15,201.40
+ORD-2024-1004,2024-05-05,"David Taylor",West,Furniture,54.00,5,0.14,256.50
+ORD-2024-1005,2024-06-06,"Emily Davis",Central,Office Supplies,55.00,6,0.05,313.50
+ORD-2024-1006,2024-07-07,"Robert Johnson",Central,Technology,56.00,7,0.10,372.40
+ORD-2024-1007,2024-08-08,"Jessica Anderson",South,Furniture,57.00,8,0.15,433.20
+ORD-2024-1008,2024-09-09,"John Doe",Central,Office Supplies,58.00,1,0.18,55.10
+ORD-2024-1009,2024-10-10,"Jane Smith",Central,Technology,59.00,2,0.05,112.10
+ORD-2024-1010,2024-11-11,"Michael Brown",Central,Furniture,60.00,3,0.10,171.00
+ORD-2024-1011,2024-12-12,"Sarah Wilson",South,Office Supplies,61.00,4,0.15,231.80
+ORD-2024-1012,2024-01-13,"David Taylor",West,Technology,62.00,5,0.22,294.50
+ORD-2024-1013,2024-02-14,"Emily Davis",Central,Furniture,63.00,6,0.05,359.10
+ORD-2024-1014,2024-03-15,"Robert Johnson",Central,Office Supplies,64.00,7,0.10,425.60
+ORD-2024-1015,2024-04-16,"Jessica Anderson",South,Technology,65.00,8,0.15,494.00
+ORD-2024-1016,2024-05-17,"John Doe",West,Furniture,66.00,1,0.11,62.70
+ORD-2024-1017,2024-06-18,"Jane Smith",East,Office Supplies,67.00,2,0.05,127.30
+ORD-2024-1018,2024-07-19,"Michael Brown",Central,Technology,68.00,3,0.10,193.80
+ORD-2024-1019,2024-08-20,"Sarah Wilson",South,Furniture,69.00,4,0.15,262.20
+ORD-2024-1020,2024-09-21,"David Taylor",West,Office Supplies,70.00,5,0.15,332.50
+ORD-2024-1021,2024-10-22,"Emily Davis",East,Technology,71.00,6,0.05,404.70
+ORD-2024-1022,2024-11-23,"Robert Johnson",Central,Furniture,72.00,7,0.10,478.80
+ORD-2024-1023,2024-12-24,"Jessica Anderson",Central,Office Supplies,73.00,8,0.15,554.80
+ORD-2024-1024,2024-01-25,"John Doe",West,Technology,74.00,1,0.19,70.30
+ORD-2024-1025,2024-02-26,"Jane Smith",Central,Furniture,75.00,2,0.05,142.50
+ORD-2024-1026,2024-03-27,"Michael Brown",Central,Office Supplies,76.00,3,0.10,216.60
+ORD-2024-1027,2024-04-28,"Sarah Wilson",South,Technology,77.00,4,0.15,292.60
+ORD-2024-1028,2024-05-01,"David Taylor",West,Furniture,78.00,5,0.23,370.50
+ORD-2024-1029,2024-06-02,"Valued Customer",East,Office Supplies,79.00,6,0.05,450.30
+ORD-2024-1030,2024-07-03,"Robert Johnson",Central,Technology,80.00,7,0.10,532.00
+ORD-2024-1031,2024-08-04,"Jessica Anderson",South,Furniture,81.00,8,0.05,615.60
+ORD-2024-1032,2024-09-05,"John Doe",West,Office Supplies,82.00,1,0.12,77.90
+ORD-2024-1033,2024-10-06,"Jane Smith",East,Technology,83.00,2,0.05,157.70
+ORD-2024-1034,2024-11-07,"Michael Brown",Central,Furniture,84.00,3,0.10,239.40
+ORD-2024-1035,2024-12-08,"Sarah Wilson",South,Office Supplies,85.00,4,0.15,323.00
+ORD-2024-1036,2024-01-09,"David Taylor",West,Technology,86.00,5,0.16,408.50
+ORD-2024-1037,2024-02-10,"Emily Davis",Central,Furniture,87.00,6,0.05,495.90
+ORD-2024-1038,2024-03-11,"Robert Johnson",Central,Office Supplies,88.00,7,0.10,585.20
+ORD-2024-1039,2024-04-12,"Jessica Anderson",South,Technology,89.00,8,0.15,676.40
+ORD-2024-1040,2024-05-13,"John Doe",West,Furniture,90.00,1,0.20,85.50
+ORD-2024-1041,2024-06-14,"Jane Smith",East,Office Supplies,91.00,2,0.05,172.90
+ORD-2024-1042,2024-07-15,"Michael Brown",Central,Technology,92.00,3,0.10,262.20
+ORD-2024-1043,2024-08-16,"Sarah Wilson",South,Furniture,93.00,4,0.15,353.40
+ORD-2024-1044,2024-09-17,"David Taylor",West,Office Supplies,94.00,5,0.24,446.50
+ORD-2024-1045,2024-10-18,"Emily Davis",East,Technology,95.00,6,0.05,541.50
+ORD-2024-1046,2024-11-19,"Robert Johnson",Central,Furniture,96.00,7,0.10,638.40
+ORD-2024-1047,2024-12-20,"Jessica Anderson",South,Office Supplies,97.00,8,0.15,737.20
+ORD-2024-1048,2024-01-21,"John Doe",West,Technology,98.00,1,0.13,93.10
+ORD-2024-1049,2024-02-22,"Jane Smith",East,Furniture,99.00,2,0.05,188.10
+ORD-2024-1050,2024-03-23,"Michael Brown",Central,Office Supplies,100.00,3,0.10,285.00
+ORD-2024-1051,2024-04-24,"Sarah Wilson",Central,Technology,101.00,1,0.15,95.95
+ORD-2024-1052,2024-05-25,"David Taylor",Central,Furniture,102.00,5,0.17,484.50
+ORD-2024-1053,2024-06-26,"Emily Davis",Central,Office Supplies,103.00,6,0.05,587.10
+ORD-2024-1054,2024-07-27,"Robert Johnson",Central,Technology,104.00,7,0.10,691.60
+ORD-2024-1055,2024-08-28,"Jessica Anderson",South,Furniture,105.00,8,0.15,798.00
+ORD-2024-1056,2024-09-01,"John Doe",West,Office Supplies,106.00,1,0.21,100.70
+ORD-2024-1057,2024-10-02,"Jane Smith",East,Technology,107.00,2,0.05,203.30
+ORD-2024-1058,2024-11-03,"Valued Customer",Central,Furniture,108.00,3,0.10,307.80
+ORD-2024-1059,2024-12-04,"Sarah Wilson",South,Office Supplies,109.00,4,0.15,414.20
+ORD-2024-1060,2024-01-05,"David Taylor",West,Technology,110.00,5,0.10,522.50
+ORD-2024-1061,2024-02-06,"Emily Davis",East,Furniture,111.00,6,0.05,632.70
+ORD-2024-1062,2024-03-07,"Robert Johnson",Central,Office Supplies,112.00,7,0.05,744.80
+ORD-2024-1063,2024-04-08,"Jessica Anderson",Central,Technology,113.00,8,0.15,858.80
+ORD-2024-1064,2024-05-09,"John Doe",West,Furniture,114.00,1,0.14,108.30
+ORD-2024-1065,2024-06-10,"Jane Smith",East,Office Supplies,115.00,2,0.05,218.50
+ORD-2024-1066,2024-07-11,"Michael Brown",Central,Technology,116.00,3,0.10,330.60
+ORD-2024-1067,2024-08-12,"Sarah Wilson",South,Furniture,117.00,4,0.15,444.60
+ORD-2024-1068,2024-09-13,"David Taylor",Central,Office Supplies,118.00,5,0.18,560.50
+ORD-2024-1069,2024-10-14,"Emily Davis",East,Technology,119.00,6,0.05,678.30
+ORD-2024-1070,2024-11-15,"Robert Johnson",Central,Furniture,120.00,7,0.10,798.00
+ORD-2024-1071,2024-12-16,"Jessica Anderson",Central,Office Supplies,121.00,8,0.15,919.60
+ORD-2024-1072,2024-01-17,"John Doe",West,Technology,122.00,1,0.22,115.90
+ORD-2024-1073,2024-02-18,"Jane Smith",East,Furniture,123.00,1,0.05,116.85
+ORD-2024-1074,2024-03-19,"Michael Brown",Central,Office Supplies,124.00,3,0.10,353.40
+ORD-2024-1075,2024-04-20,"Sarah Wilson",South,Technology,125.00,4,0.15,475.00
+ORD-2024-1076,2024-05-21,"David Taylor",West,Furniture,126.00,5,0.11,598.50
+ORD-2024-1077,2024-06-22,"Emily Davis",East,Office Supplies,127.00,6,0.05,723.90
+ORD-2024-1078,2024-07-23,"Robert Johnson",Central,Technology,128.00,7,0.10,851.20
+ORD-2024-1079,2024-08-24,"Jessica Anderson",Central,Furniture,129.00,8,0.15,980.40
+ORD-2024-1080,2024-09-25,"John Doe",West,Office Supplies,130.00,1,0.15,123.50
+ORD-2024-1081,2024-10-26,"Jane Smith",Central,Technology,131.00,2,0.05,248.90
+ORD-2024-1082,2024-11-27,"Michael Brown",Central,Furniture,132.00,3,0.10,356.40
+ORD-2024-1083,2024-12-28,"Sarah Wilson",South,Office Supplies,133.00,4,0.15,505.40
+ORD-2024-1084,2024-01-01,"David Taylor",West,Technology,134.00,5,0.19,636.50
+ORD-2024-1085,2024-02-02,"Emily Davis",East,Furniture,135.00,6,0.05,769.50
+ORD-2024-1086,2024-03-03,"Robert Johnson",Central,Office Supplies,136.00,7,0.10,904.40
+ORD-2024-1087,2024-04-04,"Valued Customer",South,Technology,137.00,8,0.15,1041.20
+ORD-2024-1088,2024-05-05,"John Doe",West,Furniture,138.00,1,0.23,131.10
+ORD-2024-1089,2024-06-06,"Jane Smith",East,Office Supplies,139.00,2,0.05,264.10
+ORD-2024-1090,2024-07-07,"Michael Brown",Central,Technology,140.00,3,0.10,399.00
+ORD-2024-1091,2024-08-08,"Sarah Wilson",South,Furniture,141.00,4,0.15,535.80
+ORD-2024-1092,2024-09-09,"David Taylor",West,Office Supplies,142.00,5,0.12,674.50
+ORD-2024-1093,2024-10-10,"Emily Davis",Central,Technology,143.00,6,0.05,815.10
+ORD-2024-1094,2024-11-11,"Robert Johnson",Central,Furniture,144.00,7,0.10,957.60
+ORD-2024-1095,2024-12-12,"Jessica Anderson",Central,Office Supplies,145.00,8,0.15,1102.00
+ORD-2024-1096,2024-01-13,"John Doe",Central,Technology,146.00,1,0.16,138.70
+ORD-2024-1097,2024-02-14,"Jane Smith",Central,Furniture,147.00,2,0.05,279.30
+ORD-2024-1098,2024-03-15,"Michael Brown",Central,Office Supplies,148.00,3,0.10,421.80
+ORD-2024-1099,2024-04-16,"Sarah Wilson",South,Technology,149.00,4,0.15,566.20
+ORD-2024-1100,2024-05-17,"David Taylor",Central,Furniture,150.00,5,0.20,712.50
+ORD-2024-1101,2024-06-18,"Emily Davis",Central,Office Supplies,151.00,6,0.05,860.70
+ORD-2024-1102,2024-07-19,"Robert Johnson",Central,Technology,152.00,1,0.10,144.40
+ORD-2024-1103,2024-08-20,"Jessica Anderson",South,Furniture,153.00,8,0.15,1162.80
+ORD-2024-1104,2024-09-21,"John Doe",West,Office Supplies,154.00,1,0.24,146.30
+ORD-2024-1105,2024-10-22,"Jane Smith",East,Technology,155.00,2,0.05,294.50
+ORD-2024-1106,2024-11-23,"Michael Brown",Central,Furniture,156.00,3,0.10,444.60
+ORD-2024-1107,2024-12-24,"Sarah Wilson",Central,Office Supplies,157.00,4,0.15,596.60
+ORD-2024-1108,2024-01-25,"David Taylor",West,Technology,158.00,5,0.13,750.50
+ORD-2024-1109,2024-02-26,"Emily Davis",East,Furniture,159.00,6,0.05,906.30
+ORD-2024-1110,2024-03-27,"Robert Johnson",Central,Office Supplies,160.00,7,0.10,1064.00
+ORD-2024-1111,2024-04-28,"Jessica Anderson",South,Technology,161.00,8,0.15,1223.60
+ORD-2024-1112,2024-05-01,"John Doe",West,Furniture,162.00,1,0.17,153.90
+ORD-2024-1113,2024-06-02,"Jane Smith",East,Office Supplies,163.00,2,0.05,309.70
+ORD-2024-1114,2024-07-03,"Michael Brown",Central,Technology,164.00,3,0.10,467.40
+ORD-2024-1115,2024-08-04,"Sarah Wilson",Central,Furniture,165.00,4,0.15,627.00
+ORD-2024-1116,2024-09-05,"Valued Customer",West,Office Supplies,166.00,5,0.21,788.50
+ORD-2024-1117,2024-10-06,"Emily Davis",East,Technology,167.00,6,0.05,951.90
+ORD-2024-1118,2024-11-07,"Robert Johnson",Central,Furniture,168.00,7,0.10,1117.20
+ORD-2024-1119,2024-12-08,"Jessica Anderson",Central,Office Supplies,169.00,8,0.15,1284.40
+ORD-2024-1120,2024-01-09,"John Doe",West,Technology,170.00,1,0.10,161.50
+ORD-2024-1121,2024-02-10,"Jane Smith",East,Furniture,171.00,2,0.05,324.90
+ORD-2024-1122,2024-03-11,"Michael Brown",Central,Office Supplies,172.00,3,0.10,490.20
+ORD-2024-1123,2024-04-12,"Sarah Wilson",South,Technology,173.00,4,0.15,588.20
+ORD-2024-1124,2024-05-13,"David Taylor",West,Furniture,174.00,5,0.14,826.50
+ORD-2024-1125,2024-06-14,"Emily Davis",East,Office Supplies,175.00,6,0.05,997.50
+ORD-2024-1126,2024-07-15,"Robert Johnson",Central,Technology,176.00,7,0.10,1170.40
+ORD-2024-1127,2024-08-16,"Jessica Anderson",South,Furniture,177.00,8,0.15,1345.20
+ORD-2024-1128,2024-09-17,"John Doe",West,Office Supplies,178.00,1,0.18,169.10
+ORD-2024-1129,2024-10-18,"Jane Smith",East,Technology,179.00,2,0.05,340.10
+ORD-2024-1130,2024-11-19,"Michael Brown",Central,Furniture,180.00,3,0.10,513.00
+ORD-2024-1131,2024-12-20,"Sarah Wilson",South,Office Supplies,181.00,4,0.15,687.80
+ORD-2024-1132,2024-01-21,"David Taylor",West,Technology,182.00,5,0.22,864.50
+ORD-2024-1133,2024-02-22,"Emily Davis",East,Furniture,183.00,6,0.05,1043.10
+ORD-2024-1134,2024-03-23,"Robert Johnson",Central,Office Supplies,184.00,7,0.10,1223.60
+ORD-2024-1135,2024-04-24,"Jessica Anderson",Central,Technology,185.00,8,0.15,1406.00
+ORD-2024-1136,2024-05-25,"John Doe",West,Furniture,186.00,1,0.11,176.70
+ORD-2024-1137,2024-06-26,"Jane Smith",East,Office Supplies,187.00,2,0.05,355.30
+ORD-2024-1138,2024-07-27,"Michael Brown",Central,Technology,188.00,3,0.10,535.80
+ORD-2024-1139,2024-08-28,"Sarah Wilson",Central,Furniture,189.00,4,0.15,718.20
+ORD-2024-1140,2024-09-01,"David Taylor",West,Office Supplies,190.00,5,0.15,902.50
+ORD-2024-1141,2024-10-02,"Emily Davis",East,Technology,191.00,6,0.05,1088.70
+ORD-2024-1142,2024-11-03,"Robert Johnson",Central,Furniture,192.00,7,0.10,1276.80
+ORD-2024-1143,2024-12-04,"Jessica Anderson",Central,Office Supplies,193.00,8,0.15,1466.80
+ORD-2024-1144,2024-01-05,"John Doe",West,Technology,194.00,1,0.19,184.30
+ORD-2024-1145,2024-02-06,"Valued Customer",Central,Furniture,195.00,2,0.05,370.50
+ORD-2024-1146,2024-03-07,"Michael Brown",Central,Office Supplies,196.00,1,0.10,186.20
+ORD-2024-1147,2024-04-08,"Sarah Wilson",Central,Technology,197.00,4,0.15,748.60
+ORD-2024-1148,2024-05-09,"David Taylor",West,Furniture,198.00,5,0.23,940.50
+ORD-2024-1149,2024-06-10,"Emily Davis",East,Office Supplies,199.00,6,0.05,1134.30
+ORD-2024-1150,2024-07-11,"Robert Johnson",Central,Technology,200.00,7,0.10,1330.00
+ORD-2024-1151,2024-08-12,"Jessica Anderson",South,Furniture,201.00,8,0.15,1527.60
+ORD-2024-1152,2024-09-13,"John Doe",West,Office Supplies,202.00,1,0.12,191.90
+ORD-2024-1153,2024-10-14,"Jane Smith",Central,Technology,203.00,1,0.05,192.85
+ORD-2024-1154,2024-11-15,"Michael Brown",Central,Furniture,204.00,3,0.10,581.40
+ORD-2024-1155,2024-12-16,"Sarah Wilson",South,Office Supplies,205.00,4,0.05,779.00
+ORD-2024-1156,2024-01-17,"David Taylor",West,Technology,206.00,5,0.16,978.50
+ORD-2024-1157,2024-02-18,"Emily Davis",Central,Furniture,207.00,6,0.05,1179.90
+ORD-2024-1158,2024-03-19,"Robert Johnson",Central,Office Supplies,208.00,7,0.10,1383.20
+ORD-2024-1159,2024-04-20,"Jessica Anderson",South,Technology,209.00,8,0.15,1588.40
+ORD-2024-1160,2024-05-21,"John Doe",Central,Furniture,210.00,1,0.20,199.50
+ORD-2024-1161,2024-06-22,"Jane Smith",Central,Office Supplies,211.00,2,0.05,400.90
+ORD-2024-1162,2024-07-23,"Michael Brown",Central,Technology,212.00,3,0.10,604.20
+ORD-2024-1163,2024-08-24,"Sarah Wilson",South,Furniture,213.00,4,0.15,809.40
+ORD-2024-1164,2024-09-25,"David Taylor",West,Office Supplies,214.00,5,0.24,813.20
+ORD-2024-1165,2024-10-26,"Emily Davis",East,Technology,215.00,6,0.05,1225.50
+ORD-2024-1166,2024-11-27,"Robert Johnson",Central,Furniture,216.00,7,0.10,1436.40
+ORD-2024-1167,2024-12-28,"Jessica Anderson",South,Office Supplies,217.00,8,0.15,1649.20
+ORD-2024-1168,2024-01-01,"John Doe",West,Technology,218.00,1,0.13,207.10
+ORD-2024-1169,2024-02-02,"Jane Smith",Central,Furniture,219.00,2,0.05,416.10
+ORD-2024-1170,2024-03-03,"Michael Brown",Central,Office Supplies,220.00,3,0.10,627.00
+ORD-2024-1171,2024-04-04,"Sarah Wilson",South,Technology,221.00,4,0.15,839.80
+ORD-2024-1172,2024-05-05,"David Taylor",Central,Furniture,222.00,5,0.17,1054.50
+ORD-2024-1173,2024-06-06,"Emily Davis",Central,Office Supplies,223.00,6,0.05,1271.10
+ORD-2024-1174,2024-07-07,"Valued Customer",Central,Technology,224.00,7,0.10,1489.60
+ORD-2024-1175,2024-08-08,"Jessica Anderson",South,Furniture,225.00,8,0.15,1710.00
+ORD-2024-1176,2024-09-09,"John Doe",West,Office Supplies,226.00,1,0.21,214.70
+ORD-2024-1177,2024-10-10,"Jane Smith",East,Technology,227.00,2,0.05,431.30
+ORD-2024-1178,2024-11-11,"Michael Brown",Central,Furniture,228.00,3,0.10,649.80
+ORD-2024-1179,2024-12-12,"Sarah Wilson",South,Office Supplies,229.00,4,0.15,870.20
+ORD-2024-1180,2024-01-13,"David Taylor",West,Technology,230.00,5,0.10,1092.50
+ORD-2024-1181,2024-02-14,"Emily Davis",Central,Furniture,231.00,6,0.05,1316.70
+ORD-2024-1182,2024-03-15,"Robert Johnson",Central,Office Supplies,232.00,7,0.10,1542.80
+ORD-2024-1183,2024-04-16,"Jessica Anderson",South,Technology,233.00,8,0.15,1770.80
+ORD-2024-1184,2024-05-17,"John Doe",West,Furniture,234.00,1,0.14,222.30
+ORD-2024-1185,2024-06-18,"Jane Smith",East,Office Supplies,235.00,2,0.05,446.50
+ORD-2024-1186,2024-07-19,"Michael Brown",Central,Technology,236.00,3,0.05,672.60
+ORD-2024-1187,2024-08-20,"Sarah Wilson",South,Furniture,237.00,4,0.15,900.60
+ORD-2024-1188,2024-09-21,"David Taylor",West,Office Supplies,238.00,5,0.18,1130.50
+ORD-2024-1189,2024-10-22,"Emily Davis",East,Technology,239.00,6,0.05,1362.30
+ORD-2024-1190,2024-11-23,"Robert Johnson",Central,Furniture,240.00,7,0.10,1596.00
+ORD-2024-1191,2024-12-24,"Jessica Anderson",Central,Office Supplies,241.00,8,0.15,1831.60
+ORD-2024-1192,2024-01-25,"John Doe",West,Technology,242.00,1,0.22,229.90
+ORD-2024-1193,2024-02-26,"Jane Smith",East,Furniture,243.00,2,0.05,461.70
+ORD-2024-1194,2024-03-27,"Michael Brown",Central,Office Supplies,244.00,3,0.10,695.40
+ORD-2024-1195,2024-04-28,"Sarah Wilson",South,Technology,245.00,4,0.15,931.00
+ORD-2024-1196,2024-05-01,"David Taylor",West,Furniture,246.00,5,0.11,1168.50
+ORD-2024-1197,2024-06-02,"Emily Davis",East,Office Supplies,247.00,6,0.05,1407.90
+ORD-2024-1198,2024-07-03,"Robert Johnson",Central,Technology,248.00,7,0.10,1649.20
+ORD-2024-1199,2024-08-04,"Jessica Anderson",Central,Furniture,249.00,8,0.15,1892.40
+ORD-2024-1200,2024-09-05,"John Doe",West,Office Supplies,250.00,1,0.15,237.50
+ORD-2024-1201,2024-10-06,"Jane Smith",Central,Technology,251.00,2,0.05,476.90
+ORD-2024-1202,2024-11-07,"Michael Brown",Central,Furniture,252.00,3,0.10,718.20
+ORD-2024-1203,2024-12-08,"Valued Customer",Central,Office Supplies,253.00,4,0.15,961.40
+ORD-2024-1204,2024-01-09,"David Taylor",Central,Technology,254.00,1,0.19,241.30
+ORD-2024-1205,2024-02-10,"Emily Davis",East,Furniture,255.00,6,0.05,1453.50
+ORD-2024-1206,2024-03-11,"Robert Johnson",Central,Office Supplies,256.00,7,0.10,1702.40
+ORD-2024-1207,2024-04-12,"Jessica Anderson",South,Technology,257.00,8,0.15,1953.20
+ORD-2024-1208,2024-05-13,"John Doe",West,Furniture,258.00,1,0.23,245.10
+ORD-2024-1209,2024-06-14,"Jane Smith",East,Office Supplies,259.00,2,0.05,492.10
+ORD-2024-1210,2024-07-15,"Michael Brown",Central,Technology,260.00,3,0.10,741.00
+ORD-2024-1211,2024-08-16,"Sarah Wilson",South,Furniture,261.00,4,0.15,991.80
+ORD-2024-1212,2024-09-17,"David Taylor",West,Office Supplies,262.00,5,0.12,1244.50
+ORD-2024-1213,2024-10-18,"Emily Davis",East,Technology,263.00,6,0.05,1499.10
+ORD-2024-1214,2024-11-19,"Robert Johnson",Central,Furniture,264.00,7,0.10,1755.60
+ORD-2024-1215,2024-12-20,"Jessica Anderson",South,Office Supplies,265.00,8,0.15,2014.00
+ORD-2024-1216,2024-01-21,"John Doe",West,Technology,266.00,1,0.16,252.70
+ORD-2024-1217,2024-02-22,"Jane Smith",East,Furniture,267.00,2,0.05,507.30
+ORD-2024-1218,2024-03-23,"Michael Brown",Central,Office Supplies,268.00,3,0.10,763.80
+ORD-2024-1219,2024-04-24,"Sarah Wilson",South,Technology,269.00,1,0.15,255.55
+ORD-2024-1220,2024-05-25,"David Taylor",Central,Furniture,270.00,5,0.20,1282.50
+ORD-2024-1221,2024-06-26,"Emily Davis",Central,Office Supplies,271.00,6,0.05,1544.70
+ORD-2024-1222,2024-07-27,"Robert Johnson",Central,Technology,272.00,7,0.10,1808.80
+ORD-2024-1223,2024-08-28,"Jessica Anderson",South,Furniture,273.00,8,0.15,2074.80
+ORD-2024-1224,2024-09-01,"John Doe",West,Office Supplies,274.00,1,0.24,260.30
+ORD-2024-1225,2024-10-02,"Jane Smith",Central,Technology,275.00,2,0.05,522.50
+ORD-2024-1226,2024-11-03,"Michael Brown",Central,Furniture,276.00,3,0.10,786.60
+ORD-2024-1227,2024-12-04,"Sarah Wilson",South,Office Supplies,277.00,4,0.15,1052.60
+ORD-2024-1228,2024-01-05,"David Taylor",West,Technology,278.00,5,0.13,1320.50
+ORD-2024-1229,2024-02-06,"Emily Davis",East,Furniture,279.00,6,0.05,1590.30
+ORD-2024-1230,2024-03-07,"Robert Johnson",Central,Office Supplies,280.00,7,0.10,1862.00
+ORD-2024-1231,2024-04-08,"Jessica Anderson",South,Technology,281.00,8,0.15,2135.60
+ORD-2024-1232,2024-05-09,"Valued Customer",West,Furniture,282.00,1,0.17,267.90
+ORD-2024-1233,2024-06-10,"Jane Smith",Central,Office Supplies,283.00,2,0.05,537.70
+ORD-2024-1234,2024-07-11,"Michael Brown",Central,Technology,284.00,3,0.10,809.40
+ORD-2024-1235,2024-08-12,"Sarah Wilson",Central,Furniture,285.00,4,0.15,1083.00
+ORD-2024-1236,2024-09-13,"David Taylor",West,Office Supplies,286.00,5,0.21,1358.50
+ORD-2024-1237,2024-10-14,"Emily Davis",East,Technology,287.00,6,0.05,1635.90
+ORD-2024-1238,2024-11-15,"Robert Johnson",Central,Furniture,288.00,7,0.10,1915.20
+ORD-2024-1239,2024-12-16,"Jessica Anderson",South,Office Supplies,289.00,8,0.15,2196.40
+ORD-2024-1240,2024-01-17,"John Doe",West,Technology,290.00,1,0.10,275.50
+ORD-2024-1241,2024-02-18,"Jane Smith",East,Furniture,291.00,2,0.05,552.90
+ORD-2024-1242,2024-03-19,"Michael Brown",Central,Office Supplies,292.00,3,0.10,832.20
+ORD-2024-1243,2024-04-20,"Sarah Wilson",Central,Technology,293.00,4,0.15,1113.40
+ORD-2024-1244,2024-05-21,"David Taylor",West,Furniture,294.00,5,0.14,1396.50
+ORD-2024-1245,2024-06-22,"Emily Davis",East,Office Supplies,295.00,6,0.05,1681.50
+ORD-2024-1246,2024-07-23,"Robert Johnson",Central,Technology,296.00,7,0.10,1864.80
+ORD-2024-1247,2024-08-24,"Jessica Anderson",South,Furniture,297.00,8,0.15,2257.20
+ORD-2024-1248,2024-09-25,"John Doe",West,Office Supplies,298.00,1,0.18,283.10
+ORD-2024-1249,2024-10-26,"Jane Smith",East,Technology,299.00,2,0.05,568.10
+ORD-2024-1250,2024-11-27,"Michael Brown",Central,Furniture,300.00,3,0.10,855.00
+ORD-2024-1251,2024-12-28,"Sarah Wilson",South,Office Supplies,301.00,4,0.15,1143.80
+ORD-2024-1252,2024-01-01,"David Taylor",West,Technology,302.00,5,0.22,1434.50
+ORD-2024-1253,2024-02-02,"Emily Davis",Central,Furniture,303.00,6,0.05,1727.10
+ORD-2024-1254,2024-03-03,"Robert Johnson",Central,Office Supplies,304.00,7,0.10,2021.60
+ORD-2024-1255,2024-04-04,"Jessica Anderson",Central,Technology,305.00,1,0.15,289.75
+ORD-2024-1256,2024-05-05,"John Doe",West,Furniture,306.00,1,0.11,290.70
+ORD-2024-1257,2024-06-06,"Jane Smith",Central,Office Supplies,307.00,2,0.05,583.30
+ORD-2024-1258,2024-07-07,"Michael Brown",Central,Technology,308.00,3,0.10,877.80
+ORD-2024-1259,2024-08-08,"Sarah Wilson",South,Furniture,309.00,4,0.15,1174.20
+ORD-2024-1260,2024-09-09,"David Taylor",Central,Office Supplies,310.00,5,0.15,1472.50
+ORD-2024-1261,2024-10-10,"Valued Customer",Central,Technology,311.00,6,0.05,1772.70
+ORD-2024-1262,2024-11-11,"Robert Johnson",Central,Furniture,312.00,7,0.10,2074.80
+ORD-2024-1263,2024-12-12,"Jessica Anderson",Central,Office Supplies,313.00,8,0.15,2378.80
+ORD-2024-1264,2024-01-13,"John Doe",West,Technology,314.00,1,0.19,298.30
+ORD-2024-1265,2024-02-14,"Jane Smith",East,Furniture,315.00,2,0.05,598.50
+ORD-2024-1266,2024-03-15,"Michael Brown",Central,Office Supplies,316.00,3,0.10,900.60
+ORD-2024-1267,2024-04-16,"Sarah Wilson",South,Technology,317.00,4,0.15,1204.60
+ORD-2024-1268,2024-05-17,"David Taylor",Central,Furniture,318.00,5,0.23,1510.50
+ORD-2024-1269,2024-06-18,"Emily Davis",East,Office Supplies,319.00,6,0.05,1818.30
+ORD-2024-1270,2024-07-19,"Robert Johnson",Central,Technology,320.00,7,0.10,2128.00
+ORD-2024-1271,2024-08-20,"Jessica Anderson",South,Furniture,321.00,8,0.15,2439.60
+ORD-2024-1272,2024-09-21,"John Doe",West,Office Supplies,322.00,1,0.12,305.90
+ORD-2024-1273,2024-10-22,"Jane Smith",East,Technology,323.00,2,0.05,613.70
+ORD-2024-1274,2024-11-23,"Michael Brown",Central,Furniture,324.00,3,0.10,923.40
+ORD-2024-1275,2024-12-24,"Sarah Wilson",Central,Office Supplies,325.00,4,0.15,1235.00
+ORD-2024-1276,2024-01-25,"David Taylor",West,Technology,326.00,5,0.16,1548.50
+ORD-2024-1277,2024-02-26,"Emily Davis",East,Furniture,327.00,6,0.05,1863.90
+ORD-2024-1278,2024-03-27,"Robert Johnson",Central,Office Supplies,328.00,7,0.10,2181.20
+ORD-2024-1279,2024-04-28,"Jessica Anderson",South,Technology,329.00,8,0.05,2500.40
+ORD-2024-1280,2024-05-01,"John Doe",West,Furniture,330.00,1,0.20,313.50
+ORD-2024-1281,2024-06-02,"Jane Smith",Central,Office Supplies,331.00,2,0.05,628.90
+ORD-2024-1282,2024-07-03,"Michael Brown",Central,Technology,332.00,3,0.10,946.20
+ORD-2024-1283,2024-08-04,"Sarah Wilson",South,Furniture,333.00,4,0.15,1265.40
+ORD-2024-1284,2024-09-05,"David Taylor",West,Office Supplies,334.00,5,0.24,1586.50
+ORD-2024-1285,2024-10-06,"Emily Davis",East,Technology,335.00,6,0.05,1909.50
+ORD-2024-1286,2024-11-07,"Robert Johnson",Central,Furniture,336.00,7,0.10,2234.40
+ORD-2024-1287,2024-12-08,"Jessica Anderson",Central,Office Supplies,337.00,8,0.15,2561.20
+ORD-2024-1288,2024-01-09,"John Doe",West,Technology,338.00,1,0.13,321.10
+ORD-2024-1289,2024-02-10,"Jane Smith",East,Furniture,339.00,2,0.05,644.10
+ORD-2024-1290,2024-03-11,"Valued Customer",Central,Office Supplies,340.00,3,0.10,969.00
+ORD-2024-1291,2024-04-12,"Sarah Wilson",South,Technology,341.00,4,0.15,1295.80
+ORD-2024-1292,2024-05-13,"David Taylor",West,Furniture,342.00,1,0.17,324.90
+ORD-2024-1293,2024-06-14,"Emily Davis",East,Office Supplies,343.00,6,0.05,1955.10
+ORD-2024-1294,2024-07-15,"Robert Johnson",Central,Technology,344.00,7,0.10,2287.60
+ORD-2024-1295,2024-08-16,"Jessica Anderson",South,Furniture,345.00,8,0.15,2622.00
+ORD-2024-1296,2024-09-17,"John Doe",West,Office Supplies,346.00,1,0.21,328.70
+ORD-2024-1297,2024-10-18,"Jane Smith",East,Technology,347.00,2,0.05,659.30
+ORD-2024-1298,2024-11-19,"Michael Brown",Central,Furniture,348.00,3,0.10,991.80
+ORD-2024-1299,2024-12-20,"Sarah Wilson",South,Office Supplies,349.00,4,0.15,1326.20
+ORD-2024-1300,2024-01-21,"David Taylor",West,Technology,350.00,5,0.10,1662.50
+ORD-2024-1301,2024-02-22,"Emily Davis",East,Furniture,351.00,6,0.05,2000.70
+ORD-2024-1302,2024-03-23,"Robert Johnson",Central,Office Supplies,352.00,7,0.10,2340.80
+ORD-2024-1303,2024-04-24,"Jessica Anderson",South,Technology,353.00,8,0.15,2682.80
+ORD-2024-1304,2024-05-25,"John Doe",West,Furniture,354.00,1,0.14,336.30
+ORD-2024-1305,2024-06-26,"Jane Smith",Central,Office Supplies,355.00,2,0.05,674.50
+ORD-2024-1306,2024-07-27,"Michael Brown",Central,Technology,356.00,1,0.10,338.20
+ORD-2024-1307,2024-08-28,"Sarah Wilson",Central,Furniture,357.00,4,0.15,1356.60
+ORD-2024-1308,2024-09-01,"David Taylor",West,Office Supplies,358.00,5,0.18,1700.50
+ORD-2024-1309,2024-10-02,"Emily Davis",East,Technology,359.00,6,0.05,2046.30
+ORD-2024-1310,2024-11-03,"Robert Johnson",Central,Furniture,360.00,7,0.05,2394.00
+ORD-2024-1311,2024-12-04,"Jessica Anderson",Central,Office Supplies,361.00,8,0.15,2743.60
+ORD-2024-1312,2024-01-05,"John Doe",West,Technology,362.00,1,0.22,343.90
+ORD-2024-1313,2024-02-06,"Jane Smith",East,Furniture,363.00,2,0.05,689.70
+ORD-2024-1314,2024-03-07,"Michael Brown",Central,Office Supplies,364.00,3,0.10,1037.40
+ORD-2024-1315,2024-04-08,"Sarah Wilson",South,Technology,365.00,4,0.15,1387.00
+ORD-2024-1316,2024-05-09,"David Taylor",West,Furniture,366.00,5,0.11,1738.50
+ORD-2024-1317,2024-06-10,"Emily Davis",East,Office Supplies,367.00,6,0.05,2091.90
+ORD-2024-1318,2024-07-11,"Robert Johnson",Central,Technology,368.00,7,0.10,2447.20
+ORD-2024-1319,2024-08-12,"Valued Customer",South,Furniture,369.00,8,0.15,2804.40
+ORD-2024-1320,2024-09-13,"John Doe",West,Office Supplies,370.00,1,0.15,351.50
+ORD-2024-1321,2024-10-14,"Jane Smith",Central,Technology,371.00,2,0.05,704.90
+ORD-2024-1322,2024-11-15,"Michael Brown",Central,Furniture,372.00,3,0.10,1060.20
+ORD-2024-1323,2024-12-16,"Sarah Wilson",South,Office Supplies,373.00,4,0.15,1417.40
+ORD-2024-1324,2024-01-17,"David Taylor",West,Technology,374.00,5,0.19,1776.50
+ORD-2024-1325,2024-02-18,"Emily Davis",East,Furniture,375.00,6,0.05,2137.50
+ORD-2024-1326,2024-03-19,"Robert Johnson",Central,Office Supplies,376.00,7,0.10,2500.40
+ORD-2024-1327,2024-04-20,"Jessica Anderson",South,Technology,377.00,8,0.15,2865.20
+ORD-2024-1328,2024-05-21,"John Doe",West,Furniture,378.00,1,0.23,291.06
+ORD-2024-1329,2024-06-22,"Jane Smith",East,Office Supplies,379.00,2,0.05,720.10
+ORD-2024-1330,2024-07-23,"Michael Brown",Central,Technology,380.00,3,0.10,1083.00
+ORD-2024-1331,2024-08-24,"Sarah Wilson",South,Furniture,381.00,4,0.15,1447.80
+ORD-2024-1332,2024-09-25,"David Taylor",West,Office Supplies,382.00,5,0.12,1814.50
+ORD-2024-1333,2024-10-26,"Emily Davis",Central,Technology,383.00,6,0.05,2183.10
+ORD-2024-1334,2024-11-27,"Robert Johnson",Central,Furniture,384.00,7,0.10,2553.60
+ORD-2024-1335,2024-12-28,"Jessica Anderson",South,Office Supplies,385.00,8,0.15,2926.00
+ORD-2024-1336,2024-01-01,"John Doe",West,Technology,386.00,1,0.16,366.70
+ORD-2024-1337,2024-02-02,"Jane Smith",East,Furniture,387.00,2,0.05,735.30
+ORD-2024-1338,2024-03-03,"Michael Brown",Central,Office Supplies,388.00,3,0.10,1105.80
+ORD-2024-1339,2024-04-04,"Sarah Wilson",South,Technology,389.00,4,0.15,1478.20
+ORD-2024-1340,2024-05-05,"David Taylor",West,Furniture,390.00,5,0.20,1852.50
+ORD-2024-1341,2024-06-06,"Emily Davis",East,Office Supplies,391.00,6,0.05,2228.70
+ORD-2024-1342,2024-07-07,"Robert Johnson",Central,Technology,392.00,7,0.10,2606.80
+ORD-2024-1343,2024-08-08,"Jessica Anderson",Central,Furniture,393.00,8,0.15,2986.80
+ORD-2024-1344,2024-09-09,"John Doe",West,Office Supplies,394.00,1,0.24,374.30
+ORD-2024-1345,2024-10-10,"Jane Smith",Central,Technology,395.00,2,0.05,750.50
+ORD-2024-1346,2024-11-11,"Michael Brown",Central,Furniture,396.00,3,0.10,1128.60
+ORD-2024-1347,2024-12-12,"Sarah Wilson",South,Office Supplies,397.00,4,0.15,1508.60
+ORD-2024-1348,2024-01-13,"Valued Customer",West,Technology,398.00,5,0.13,1890.50
+ORD-2024-1349,2024-02-14,"Emily Davis",East,Furniture,399.00,6,0.05,2274.30
+ORD-2024-1350,2024-03-15,"Robert Johnson",Central,Office Supplies,400.00,7,0.10,2660.00
+ORD-2024-1351,2024-04-16,"Jessica Anderson",South,Technology,401.00,8,0.15,3047.60
+ORD-2024-1352,2024-05-17,"John Doe",West,Furniture,402.00,1,0.17,381.90
+ORD-2024-1353,2024-06-18,"Jane Smith",East,Office Supplies,403.00,2,0.05,765.70
+ORD-2024-1354,2024-07-19,"Michael Brown",Central,Technology,404.00,3,0.10,1151.40
+ORD-2024-1355,2024-08-20,"Sarah Wilson",Central,Furniture,405.00,4,0.15,1539.00
+ORD-2024-1356,2024-09-21,"David Taylor",West,Office Supplies,406.00,5,0.21,1928.50
+ORD-2024-1357,2024-10-22,"Emily Davis",East,Technology,407.00,1,0.05,386.65
+ORD-2024-1358,2024-11-23,"Robert Johnson",Central,Furniture,408.00,7,0.10,2713.20
+ORD-2024-1359,2024-12-24,"Jessica Anderson",Central,Office Supplies,409.00,8,0.15,3108.40
+ORD-2024-1360,2024-01-25,"John Doe",Central,Technology,410.00,1,0.10,389.50
+ORD-2024-1361,2024-02-26,"Jane Smith",East,Furniture,411.00,2,0.05,780.90
+ORD-2024-1362,2024-03-27,"Michael Brown",Central,Office Supplies,412.00,3,0.10,1174.20
+ORD-2024-1363,2024-04-28,"Sarah Wilson",South,Technology,413.00,4,0.15,1569.40
+ORD-2024-1364,2024-05-01,"David Taylor",West,Furniture,414.00,5,0.14,1966.50
+ORD-2024-1365,2024-06-02,"Emily Davis",East,Office Supplies,415.00,1,0.05,394.25
+ORD-2024-1366,2024-07-03,"Robert Johnson",Central,Technology,416.00,7,0.10,2766.40
+ORD-2024-1367,2024-08-04,"Jessica Anderson",South,Furniture,417.00,8,0.15,3169.20
+ORD-2024-1368,2024-09-05,"John Doe",West,Office Supplies,418.00,1,0.18,397.10
+ORD-2024-1369,2024-10-06,"Jane Smith",East,Technology,419.00,2,0.05,796.10
+ORD-2024-1370,2024-11-07,"Michael Brown",Central,Furniture,420.00,3,0.10,1197.00
+ORD-2024-1371,2024-12-08,"Sarah Wilson",South,Office Supplies,421.00,4,0.15,1599.80
+ORD-2024-1372,2024-01-09,"David Taylor",West,Technology,422.00,5,0.22,2004.50
+ORD-2024-1373,2024-02-10,"Emily Davis",East,Furniture,423.00,6,0.05,2411.10
+ORD-2024-1374,2024-03-11,"Robert Johnson",Central,Office Supplies,424.00,7,0.10,2819.60
+ORD-2024-1375,2024-04-12,"Jessica Anderson",South,Technology,425.00,8,0.15,3230.00
+ORD-2024-1376,2024-05-13,"John Doe",West,Furniture,426.00,1,0.11,404.70
+ORD-2024-1377,2024-06-14,"Valued Customer",Central,Office Supplies,427.00,2,0.05,811.30
+ORD-2024-1378,2024-07-15,"Michael Brown",Central,Technology,428.00,3,0.10,1219.80
+ORD-2024-1379,2024-08-16,"Sarah Wilson",Central,Furniture,429.00,4,0.15,1630.20
+ORD-2024-1380,2024-09-17,"David Taylor",West,Office Supplies,430.00,5,0.15,2042.50
+ORD-2024-1381,2024-10-18,"Emily Davis",Central,Technology,431.00,6,0.05,2456.70
+ORD-2024-1382,2024-11-19,"Robert Johnson",Central,Furniture,432.00,7,0.10,2872.80
+ORD-2024-1383,2024-12-20,"Jessica Anderson",South,Office Supplies,433.00,8,0.15,3290.80
+ORD-2024-1384,2024-01-21,"John Doe",West,Technology,434.00,1,0.19,412.30
+ORD-2024-1385,2024-02-22,"Jane Smith",East,Furniture,435.00,2,0.05,826.50
+ORD-2024-1386,2024-03-23,"Michael Brown",Central,Office Supplies,436.00,3,0.10,1242.60
+ORD-2024-1387,2024-04-24,"Sarah Wilson",Central,Technology,437.00,4,0.15,1660.60
+ORD-2024-1388,2024-05-25,"David Taylor",West,Furniture,438.00,5,0.23,2080.50
+ORD-2024-1389,2024-06-26,"Emily Davis",East,Office Supplies,439.00,6,0.05,2502.30
+ORD-2024-1390,2024-07-27,"Robert Johnson",Central,Technology,440.00,7,0.10,2926.00
+ORD-2024-1391,2024-08-28,"Jessica Anderson",Central,Furniture,441.00,8,0.15,3351.60
+ORD-2024-1392,2024-09-01,"John Doe",West,Office Supplies,442.00,1,0.12,419.90
+ORD-2024-1393,2024-10-02,"Jane Smith",Central,Technology,443.00,2,0.05,841.70
+ORD-2024-1394,2024-11-03,"Michael Brown",Central,Furniture,444.00,3,0.10,1265.40
+ORD-2024-1395,2024-12-04,"Sarah Wilson",South,Office Supplies,445.00,4,0.15,1691.00
+ORD-2024-1396,2024-01-05,"David Taylor",West,Technology,446.00,5,0.16,2118.50
+ORD-2024-1397,2024-02-06,"Emily Davis",East,Furniture,447.00,6,0.05,2547.90
+ORD-2024-1398,2024-03-07,"Robert Johnson",Central,Office Supplies,448.00,7,0.10,2979.20
+ORD-2024-1399,2024-04-08,"Jessica Anderson",South,Technology,449.00,8,0.15,3412.40
+ORD-2024-1400,2024-05-09,"John Doe",West,Furniture,450.00,1,0.20,427.50
+ORD-2024-1401,2024-06-10,"Jane Smith",Central,Office Supplies,451.00,2,0.05,856.90
+ORD-2024-1402,2024-07-11,"Michael Brown",Central,Technology,452.00,3,0.10,1288.20
+ORD-2024-1403,2024-08-12,"Sarah Wilson",South,Furniture,453.00,4,0.05,1721.40
+ORD-2024-1404,2024-09-13,"David Taylor",West,Office Supplies,454.00,5,0.24,2156.50
+ORD-2024-1405,2024-10-14,"Emily Davis",East,Technology,455.00,6,0.05,2593.50
+ORD-2024-1406,2024-11-15,"Valued Customer",Central,Furniture,456.00,7,0.10,3032.40
+ORD-2024-1407,2024-12-16,"Jessica Anderson",South,Office Supplies,457.00,8,0.15,3473.20
+ORD-2024-1408,2024-01-17,"John Doe",West,Technology,458.00,1,0.13,435.10
+ORD-2024-1409,2024-02-18,"Jane Smith",East,Furniture,459.00,2,0.05,872.10
+ORD-2024-1410,2024-03-19,"Michael Brown",Central,Office Supplies,460.00,3,0.10,1242.00
+ORD-2024-1411,2024-04-20,"Sarah Wilson",South,Technology,461.00,4,0.15,1751.80
+ORD-2024-1412,2024-05-21,"David Taylor",West,Furniture,462.00,5,0.17,2194.50
+ORD-2024-1413,2024-06-22,"Emily Davis",East,Office Supplies,463.00,6,0.05,2639.10
+ORD-2024-1414,2024-07-23,"Robert Johnson",Central,Technology,464.00,7,0.10,3085.60
+ORD-2024-1415,2024-08-24,"Jessica Anderson",Central,Furniture,465.00,8,0.15,3534.00
+ORD-2024-1416,2024-09-25,"John Doe",West,Office Supplies,466.00,1,0.21,442.70
+ORD-2024-1417,2024-10-26,"Jane Smith",East,Technology,467.00,2,0.05,887.30
+ORD-2024-1418,2024-11-27,"Michael Brown",Central,Furniture,468.00,3,0.10,1333.80
+ORD-2024-1419,2024-12-28,"Sarah Wilson",South,Office Supplies,469.00,4,0.15,1782.20
+ORD-2024-1420,2024-01-01,"David Taylor",Central,Technology,470.00,5,0.10,2232.50
+ORD-2024-1421,2024-02-02,"Emily Davis",East,Furniture,471.00,6,0.05,2684.70
+ORD-2024-1422,2024-03-03,"Robert Johnson",Central,Office Supplies,472.00,7,0.10,3138.80
+ORD-2024-1423,2024-04-04,"Jessica Anderson",Central,Technology,473.00,8,0.15,3594.80
+ORD-2024-1424,2024-05-05,"John Doe",Central,Furniture,474.00,1,0.14,450.30
+ORD-2024-1425,2024-06-06,"Jane Smith",Central,Office Supplies,475.00,2,0.05,902.50
+ORD-2024-1426,2024-07-07,"Michael Brown",Central,Technology,476.00,3,0.10,1356.60
+ORD-2024-1427,2024-08-08,"Sarah Wilson",South,Furniture,477.00,4,0.15,1812.60
+ORD-2024-1428,2024-09-09,"David Taylor",West,Office Supplies,478.00,5,0.18,2270.50
+ORD-2024-1429,2024-10-10,"Emily Davis",East,Technology,479.00,6,0.05,2730.30
+ORD-2024-1430,2024-11-11,"Robert Johnson",Central,Furniture,480.00,7,0.10,3192.00
+ORD-2024-1431,2024-12-12,"Jessica Anderson",Central,Office Supplies,481.00,8,0.15,3655.60
+ORD-2024-1432,2024-01-13,"John Doe",West,Technology,482.00,1,0.22,457.90
+ORD-2024-1433,2024-02-14,"Jane Smith",Central,Furniture,483.00,2,0.05,917.70
+ORD-2024-1434,2024-03-15,"Michael Brown",Central,Office Supplies,484.00,3,0.05,1379.40
+ORD-2024-1435,2024-04-16,"Valued Customer",Central,Technology,485.00,4,0.15,1843.00
+ORD-2024-1436,2024-05-17,"David Taylor",West,Furniture,486.00,5,0.11,2308.50
+ORD-2024-1437,2024-06-18,"Emily Davis",East,Office Supplies,487.00,6,0.05,2775.90
+ORD-2024-1438,2024-07-19,"Robert Johnson",Central,Technology,488.00,1,0.10,463.60
+ORD-2024-1439,2024-08-20,"Jessica Anderson",South,Furniture,489.00,8,0.15,3716.40
+ORD-2024-1440,2024-09-21,"John Doe",West,Office Supplies,490.00,1,0.15,465.50
+ORD-2024-1441,2024-10-22,"Jane Smith",Central,Technology,491.00,2,0.05,932.90
+ORD-2024-1442,2024-11-23,"Michael Brown",Central,Furniture,492.00,3,0.10,1402.20
+ORD-2024-1443,2024-12-24,"Sarah Wilson",South,Office Supplies,493.00,4,0.15,1873.40
+ORD-2024-1444,2024-01-25,"David Taylor",Central,Technology,494.00,5,0.19,2346.50
+ORD-2024-1445,2024-02-26,"Emily Davis",East,Furniture,495.00,6,0.05,2821.50
+ORD-2024-1446,2024-03-27,"Robert Johnson",Central,Office Supplies,496.00,7,0.10,3298.40
+ORD-2024-1447,2024-04-28,"Jessica Anderson",South,Technology,497.00,8,0.15,3777.20
+ORD-2024-1448,2024-05-01,"John Doe",West,Furniture,498.00,1,0.23,473.10
+ORD-2024-1449,2024-06-02,"Jane Smith",East,Office Supplies,499.00,2,0.05,948.10
+ORD-2024-1450,2024-07-03,"Michael Brown",Central,Technology,500.00,3,0.10,1425.00
+ORD-2024-1451,2024-08-04,"Sarah Wilson",South,Furniture,501.00,4,0.15,1703.40
+ORD-2024-1452,2024-09-05,"David Taylor",West,Office Supplies,502.00,5,0.12,2384.50
+ORD-2024-1453,2024-10-06,"Emily Davis",East,Technology,503.00,6,0.05,2867.10
+ORD-2024-1454,2024-11-07,"Robert Johnson",Central,Furniture,504.00,7,0.10,3351.60
+ORD-2024-1455,2024-12-08,"Jessica Anderson",Central,Office Supplies,505.00,8,0.15,3838.00
+ORD-2024-1456,2024-01-09,"John Doe",West,Technology,506.00,1,0.16,480.70
+ORD-2024-1457,2024-02-10,"Jane Smith",East,Furniture,507.00,2,0.05,963.30
+ORD-2024-1458,2024-03-11,"Michael Brown",Central,Office Supplies,508.00,3,0.10,1447.80
+ORD-2024-1459,2024-04-12,"Sarah Wilson",South,Technology,509.00,1,0.15,483.55
+ORD-2024-1460,2024-05-13,"David Taylor",West,Furniture,510.00,5,0.20,2422.50
+ORD-2024-1461,2024-06-14,"Emily Davis",Central,Office Supplies,511.00,6,0.05,2912.70
+ORD-2024-1462,2024-07-15,"Robert Johnson",Central,Technology,512.00,7,0.10,3404.80
+ORD-2024-1463,2024-08-16,"Jessica Anderson",South,Furniture,513.00,8,0.15,3898.80
+ORD-2024-1464,2024-09-17,"Valued Customer",West,Office Supplies,514.00,1,0.24,488.30
+ORD-2024-1465,2024-10-18,"Jane Smith",East,Technology,515.00,2,0.05,978.50
+ORD-2024-1466,2024-11-19,"Michael Brown",Central,Furniture,516.00,3,0.10,1470.60
+ORD-2024-1467,2024-12-20,"Sarah Wilson",South,Office Supplies,517.00,4,0.15,1964.60
+ORD-2024-1468,2024-01-21,"David Taylor",West,Technology,518.00,5,0.13,2460.50
+ORD-2024-1469,2024-02-22,"Emily Davis",East,Furniture,519.00,6,0.05,2958.30
+ORD-2024-1470,2024-03-23,"Robert Johnson",Central,Office Supplies,520.00,7,0.10,3458.00
+ORD-2024-1471,2024-04-24,"Jessica Anderson",Central,Technology,521.00,8,0.15,3959.60
+ORD-2024-1472,2024-05-25,"John Doe",Central,Furniture,522.00,1,0.17,495.90
+ORD-2024-1473,2024-06-26,"Jane Smith",East,Office Supplies,523.00,2,0.05,993.70
+ORD-2024-1474,2024-07-27,"Michael Brown",Central,Technology,524.00,3,0.10,1493.40
+ORD-2024-1475,2024-08-28,"Sarah Wilson",South,Furniture,525.00,4,0.15,1995.00
+ORD-2024-1476,2024-09-01,"David Taylor",West,Office Supplies,526.00,5,0.21,2498.50
+ORD-2024-1477,2024-10-02,"Emily Davis",East,Technology,527.00,6,0.05,3003.90
+ORD-2024-1478,2024-11-03,"Robert Johnson",Central,Furniture,528.00,7,0.10,3511.20
+ORD-2024-1479,2024-12-04,"Jessica Anderson",South,Office Supplies,529.00,8,0.15,4020.40
+ORD-2024-1480,2024-01-05,"John Doe",West,Technology,530.00,1,0.10,503.50
+ORD-2024-1481,2024-02-06,"Jane Smith",East,Furniture,531.00,2,0.05,1008.90
+ORD-2024-1482,2024-03-07,"Michael Brown",Central,Office Supplies,532.00,3,0.10,1516.20
+ORD-2024-1483,2024-04-08,"Sarah Wilson",South,Technology,533.00,4,0.15,2025.40
+ORD-2024-1484,2024-05-09,"David Taylor",West,Furniture,534.00,5,0.14,2536.50
+ORD-2024-1485,2024-06-10,"Emily Davis",East,Office Supplies,535.00,6,0.05,3049.50
+ORD-2024-1486,2024-07-11,"Robert Johnson",Central,Technology,536.00,7,0.10,3564.40
+ORD-2024-1487,2024-08-12,"Jessica Anderson",South,Furniture,537.00,8,0.15,4081.20
+ORD-2024-1488,2024-09-13,"John Doe",West,Office Supplies,538.00,1,0.18,511.10
+ORD-2024-1489,2024-10-14,"Jane Smith",East,Technology,539.00,2,0.05,1024.10
+ORD-2024-1490,2024-11-15,"Michael Brown",Central,Furniture,540.00,3,0.10,1539.00
+ORD-2024-1491,2024-12-16,"Sarah Wilson",Central,Office Supplies,541.00,4,0.15,2055.80
+ORD-2024-1492,2024-01-17,"David Taylor",West,Technology,542.00,5,0.22,2113.80
+ORD-2024-1493,2024-02-18,"Valued Customer",East,Furniture,543.00,6,0.05,3095.10
+ORD-2024-1494,2024-03-19,"Robert Johnson",Central,Office Supplies,544.00,7,0.10,3617.60
+ORD-2024-1495,2024-04-20,"Jessica Anderson",South,Technology,545.00,8,0.15,4142.00
+ORD-2024-1496,2024-05-21,"John Doe",West,Furniture,546.00,1,0.11,518.70
+ORD-2024-1497,2024-06-22,"Jane Smith",Central,Office Supplies,547.00,2,0.05,1039.30
+ORD-2024-1498,2024-07-23,"Michael Brown",Central,Technology,548.00,3,0.10,1561.80
+ORD-2024-1499,2024-08-24,"Sarah Wilson",Central,Furniture,549.00,4,0.15,2086.20
+ORD-2024-1500,2024-09-25,"David Taylor",West,Office Supplies,50.00,5,0.15,237.50
+ORD-2024-1501,2024-10-26,"Emily Davis",East,Technology,51.00,6,0.05,290.70
+ORD-2024-1502,2024-11-27,"Robert Johnson",Central,Furniture,52.00,7,0.10,345.80
+ORD-2024-1503,2024-12-28,"Jessica Anderson",Central,Office Supplies,53.00,8,0.15,402.80
+ORD-2024-1504,2024-01-01,"John Doe",Central,Technology,54.00,1,0.19,51.30
+ORD-2024-1505,2024-02-02,"Jane Smith",Central,Furniture,55.00,2,0.05,104.50
+ORD-2024-1506,2024-03-03,"Michael Brown",Central,Office Supplies,56.00,3,0.10,159.60
+ORD-2024-1507,2024-04-04,"Sarah Wilson",Central,Technology,57.00,4,0.15,216.60
+ORD-2024-1508,2024-05-05,"David Taylor",West,Furniture,58.00,5,0.23,275.50
+ORD-2024-1509,2024-06-06,"Emily Davis",East,Office Supplies,59.00,6,0.05,336.30
+ORD-2024-1510,2024-07-07,"Robert Johnson",Central,Technology,60.00,1,0.10,57.00
+ORD-2024-1511,2024-08-08,"Jessica Anderson",Central,Furniture,61.00,1,0.15,57.95
+ORD-2024-1512,2024-09-09,"John Doe",West,Office Supplies,62.00,1,0.12,58.90
+ORD-2024-1513,2024-10-10,"Jane Smith",East,Technology,63.00,2,0.05,119.70
+ORD-2024-1514,2024-11-11,"Michael Brown",Central,Furniture,64.00,3,0.10,182.40
+ORD-2024-1515,2024-12-12,"Sarah Wilson",South,Office Supplies,65.00,4,0.15,247.00
+ORD-2024-1516,2024-01-13,"David Taylor",West,Technology,66.00,5,0.16,313.50
+ORD-2024-1517,2024-02-14,"Emily Davis",East,Furniture,67.00,6,0.05,381.90
+ORD-2024-1518,2024-03-15,"Robert Johnson",Central,Office Supplies,68.00,7,0.10,452.20
+ORD-2024-1519,2024-04-16,"Jessica Anderson",South,Technology,69.00,8,0.15,524.40
+ORD-2024-1520,2024-05-17,"John Doe",West,Furniture,70.00,1,0.20,66.50
+ORD-2024-1521,2024-06-18,"Jane Smith",Central,Office Supplies,71.00,2,0.05,134.90
+ORD-2024-1522,2024-07-19,"Valued Customer",Central,Technology,72.00,3,0.10,205.20
+ORD-2024-1523,2024-08-20,"Sarah Wilson",South,Furniture,73.00,4,0.15,277.40
+ORD-2024-1524,2024-09-21,"David Taylor",West,Office Supplies,74.00,5,0.24,351.50
+ORD-2024-1525,2024-10-22,"Emily Davis",Central,Technology,75.00,6,0.05,427.50
+ORD-2024-1526,2024-11-23,"Robert Johnson",Central,Furniture,76.00,7,0.10,505.40
+ORD-2024-1527,2024-12-24,"Jessica Anderson",South,Office Supplies,77.00,8,0.05,585.20
+ORD-2024-1528,2024-01-25,"John Doe",Central,Technology,78.00,1,0.13,74.10
+ORD-2024-1529,2024-02-26,"Jane Smith",Central,Furniture,79.00,2,0.05,150.10
+ORD-2024-1530,2024-03-27,"Michael Brown",Central,Office Supplies,80.00,3,0.10,228.00
+ORD-2024-1531,2024-04-28,"Sarah Wilson",Central,Technology,81.00,4,0.15,307.80
+ORD-2024-1532,2024-05-01,"David Taylor",West,Furniture,82.00,5,0.17,389.50
+ORD-2024-1533,2024-06-02,"Emily Davis",East,Office Supplies,83.00,6,0.05,473.10
+ORD-2024-1534,2024-07-03,"Robert Johnson",Central,Technology,84.00,7,0.10,558.60
+ORD-2024-1535,2024-08-04,"Jessica Anderson",South,Furniture,85.00,8,0.15,646.00
+ORD-2024-1536,2024-09-05,"John Doe",West,Office Supplies,86.00,1,0.21,81.70
+ORD-2024-1537,2024-10-06,"Jane Smith",East,Technology,87.00,2,0.05,165.30
+ORD-2024-1538,2024-11-07,"Michael Brown",Central,Furniture,88.00,3,0.10,250.80
+ORD-2024-1539,2024-12-08,"Sarah Wilson",Central,Office Supplies,89.00,4,0.15,338.20
+ORD-2024-1540,2024-01-09,"David Taylor",West,Technology,90.00,5,0.10,427.50
+ORD-2024-1541,2024-02-10,"Emily Davis",East,Furniture,91.00,6,0.05,518.70
+ORD-2024-1542,2024-03-11,"Robert Johnson",Central,Office Supplies,92.00,7,0.10,611.80
+ORD-2024-1543,2024-04-12,"Jessica Anderson",Central,Technology,93.00,8,0.15,706.80
+ORD-2024-1544,2024-05-13,"John Doe",West,Furniture,94.00,1,0.14,89.30
+ORD-2024-1545,2024-06-14,"Jane Smith",East,Office Supplies,95.00,2,0.05,180.50
+ORD-2024-1546,2024-07-15,"Michael Brown",Central,Technology,96.00,3,0.10,273.60
+ORD-2024-1547,2024-08-16,"Sarah Wilson",South,Furniture,97.00,4,0.15,368.60
+ORD-2024-1548,2024-09-17,"David Taylor",West,Office Supplies,98.00,5,0.18,465.50
+ORD-2024-1549,2024-10-18,"Emily Davis",Central,Technology,99.00,6,0.05,564.30
+ORD-2024-1550,2024-11-19,"Robert Johnson",Central,Furniture,100.00,7,0.10,665.00
+ORD-2024-1551,2024-12-20,"Valued Customer",South,Office Supplies,101.00,8,0.15,767.60
+ORD-2024-1552,2024-01-21,"John Doe",West,Technology,102.00,1,0.22,96.90
+ORD-2024-1553,2024-02-22,"Jane Smith",East,Furniture,103.00,2,0.05,195.70
+ORD-2024-1554,2024-03-23,"Michael Brown",Central,Office Supplies,104.00,3,0.10,296.40
+ORD-2024-1555,2024-04-24,"Sarah Wilson",South,Technology,105.00,4,0.15,399.00
+ORD-2024-1556,2024-05-25,"David Taylor",West,Furniture,106.00,5,0.11,503.50
+ORD-2024-1557,2024-06-26,"Emily Davis",East,Office Supplies,107.00,6,0.05,609.90
+ORD-2024-1558,2024-07-27,"Robert Johnson",Central,Technology,108.00,7,0.05,718.20
+ORD-2024-1559,2024-08-28,"Jessica Anderson",South,Furniture,109.00,8,0.15,828.40
+ORD-2024-1560,2024-09-01,"John Doe",West,Office Supplies,110.00,1,0.15,104.50
+ORD-2024-1561,2024-10-02,"Jane Smith",East,Technology,111.00,1,0.05,105.45
+ORD-2024-1562,2024-11-03,"Michael Brown",Central,Furniture,112.00,3,0.10,319.20
+ORD-2024-1563,2024-12-04,"Sarah Wilson",South,Office Supplies,113.00,4,0.15,429.40
+ORD-2024-1564,2024-01-05,"David Taylor",Central,Technology,114.00,5,0.19,541.50
+ORD-2024-1565,2024-02-06,"Emily Davis",East,Furniture,115.00,6,0.05,655.50
+ORD-2024-1566,2024-03-07,"Robert Johnson",Central,Office Supplies,116.00,7,0.10,771.40
+ORD-2024-1567,2024-04-08,"Jessica Anderson",South,Technology,117.00,8,0.15,889.20
+ORD-2024-1568,2024-05-09,"John Doe",Central,Furniture,118.00,1,0.23,112.10
+ORD-2024-1569,2024-06-10,"Jane Smith",East,Office Supplies,119.00,2,0.05,226.10
+ORD-2024-1570,2024-07-11,"Michael Brown",Central,Technology,120.00,3,0.10,342.00
+ORD-2024-1571,2024-08-12,"Sarah Wilson",South,Furniture,121.00,4,0.15,459.80
+ORD-2024-1572,2024-09-13,"David Taylor",West,Office Supplies,122.00,5,0.12,579.50
+ORD-2024-1573,2024-10-14,"Emily Davis",Central,Technology,123.00,6,0.05,701.10
+ORD-2024-1574,2024-11-15,"Robert Johnson",Central,Furniture,124.00,7,0.10,824.60
+ORD-2024-1575,2024-12-16,"Jessica Anderson",South,Office Supplies,125.00,8,0.15,950.00
+ORD-2024-1576,2024-01-17,"John Doe",West,Technology,126.00,1,0.16,119.70
+ORD-2024-1577,2024-02-18,"Jane Smith",East,Furniture,127.00,2,0.05,241.30
+ORD-2024-1578,2024-03-19,"Michael Brown",Central,Office Supplies,128.00,3,0.10,364.80
+ORD-2024-1579,2024-04-20,"Sarah Wilson",South,Technology,129.00,4,0.15,490.20
+ORD-2024-1580,2024-05-21,"Valued Customer",Central,Furniture,130.00,5,0.20,617.50
+ORD-2024-1581,2024-06-22,"Emily Davis",East,Office Supplies,131.00,6,0.05,746.70
+ORD-2024-1582,2024-07-23,"Robert Johnson",Central,Technology,132.00,7,0.10,877.80
+ORD-2024-1583,2024-08-24,"Jessica Anderson",Central,Furniture,133.00,8,0.15,1010.80
+ORD-2024-1584,2024-09-25,"John Doe",West,Office Supplies,134.00,1,0.24,127.30
+ORD-2024-1585,2024-10-26,"Jane Smith",East,Technology,135.00,2,0.05,256.50
+ORD-2024-1586,2024-11-27,"Michael Brown",Central,Furniture,136.00,3,0.10,387.60
+ORD-2024-1587,2024-12-28,"Sarah Wilson",South,Office Supplies,137.00,4,0.15,520.60
+ORD-2024-1588,2024-01-01,"David Taylor",West,Technology,138.00,5,0.13,655.50
+ORD-2024-1589,2024-02-02,"Emily Davis",East,Furniture,139.00,6,0.05,792.30
+ORD-2024-1590,2024-03-03,"Robert Johnson",Central,Office Supplies,140.00,7,0.10,931.00
+ORD-2024-1591,2024-04-04,"Jessica Anderson",Central,Technology,141.00,8,0.15,1071.60
+ORD-2024-1592,2024-05-05,"John Doe",West,Furniture,142.00,1,0.17,134.90
+ORD-2024-1593,2024-06-06,"Jane Smith",East,Office Supplies,143.00,2,0.05,271.70
+ORD-2024-1594,2024-07-07,"Michael Brown",Central,Technology,144.00,3,0.10,410.40
+ORD-2024-1595,2024-08-08,"Sarah Wilson",South,Furniture,145.00,4,0.15,551.00
+ORD-2024-1596,2024-09-09,"David Taylor",West,Office Supplies,146.00,5,0.21,693.50
+ORD-2024-1597,2024-10-10,"Emily Davis",East,Technology,147.00,6,0.05,837.90
+ORD-2024-1598,2024-11-11,"Robert Johnson",Central,Furniture,148.00,7,0.10,984.20
+ORD-2024-1599,2024-12-12,"Jessica Anderson",South,Office Supplies,149.00,8,0.15,1132.40
+ORD-2024-1600,2024-01-13,"John Doe",West,Technology,150.00,1,0.10,142.50
+ORD-2024-1601,2024-02-14,"Jane Smith",East,Furniture,151.00,2,0.05,286.90
+ORD-2024-1602,2024-03-15,"Michael Brown",Central,Office Supplies,152.00,3,0.10,433.20
+ORD-2024-1603,2024-04-16,"Sarah Wilson",South,Technology,153.00,4,0.15,581.40
+ORD-2024-1604,2024-05-17,"David Taylor",West,Furniture,154.00,5,0.14,731.50
+ORD-2024-1605,2024-06-18,"Emily Davis",East,Office Supplies,155.00,6,0.05,883.50
+ORD-2024-1606,2024-07-19,"Robert Johnson",Central,Technology,156.00,7,0.10,1037.40
+ORD-2024-1607,2024-08-20,"Jessica Anderson",South,Furniture,157.00,8,0.15,1193.20
+ORD-2024-1608,2024-09-21,"John Doe",West,Office Supplies,158.00,1,0.18,150.10
+ORD-2024-1609,2024-10-22,"Valued Customer",Central,Technology,159.00,2,0.05,302.10
+ORD-2024-1610,2024-11-23,"Michael Brown",Central,Furniture,160.00,3,0.10,456.00
+ORD-2024-1611,2024-12-24,"Sarah Wilson",Central,Office Supplies,161.00,4,0.15,611.80
+ORD-2024-1612,2024-01-25,"David Taylor",Central,Technology,162.00,1,0.22,153.90
+ORD-2024-1613,2024-02-26,"Emily Davis",East,Furniture,163.00,6,0.05,929.10
+ORD-2024-1614,2024-03-27,"Robert Johnson",Central,Office Supplies,164.00,7,0.10,1090.60
+ORD-2024-1615,2024-04-28,"Jessica Anderson",Central,Technology,165.00,8,0.15,1122.00
+ORD-2024-1616,2024-05-01,"John Doe",Central,Furniture,166.00,1,0.11,157.70
+ORD-2024-1617,2024-06-02,"Jane Smith",Central,Office Supplies,167.00,2,0.05,317.30
+ORD-2024-1618,2024-07-03,"Michael Brown",Central,Technology,168.00,3,0.10,478.80
+ORD-2024-1619,2024-08-04,"Sarah Wilson",Central,Furniture,169.00,4,0.15,642.20
+ORD-2024-1620,2024-09-05,"David Taylor",West,Office Supplies,170.00,5,0.15,807.50
+ORD-2024-1621,2024-10-06,"Emily Davis",East,Technology,171.00,6,0.05,974.70
+ORD-2024-1622,2024-11-07,"Robert Johnson",Central,Furniture,172.00,7,0.10,1143.80
+ORD-2024-1623,2024-12-08,"Jessica Anderson",South,Office Supplies,173.00,8,0.15,1314.80
+ORD-2024-1624,2024-01-09,"John Doe",West,Technology,174.00,1,0.19,165.30
+ORD-2024-1625,2024-02-10,"Jane Smith",East,Furniture,175.00,2,0.05,332.50
+ORD-2024-1626,2024-03-11,"Michael Brown",Central,Office Supplies,176.00,3,0.10,501.60
+ORD-2024-1627,2024-04-12,"Sarah Wilson",South,Technology,177.00,4,0.15,672.60
+ORD-2024-1628,2024-05-13,"David Taylor",West,Furniture,178.00,5,0.23,845.50
+ORD-2024-1629,2024-06-14,"Emily Davis",Central,Office Supplies,179.00,6,0.05,1020.30
+ORD-2024-1630,2024-07-15,"Robert Johnson",Central,Technology,180.00,7,0.10,1197.00
+ORD-2024-1631,2024-08-16,"Jessica Anderson",South,Furniture,181.00,8,0.15,1375.60
+ORD-2024-1632,2024-09-17,"John Doe",West,Office Supplies,182.00,1,0.12,172.90
+ORD-2024-1633,2024-10-18,"Jane Smith",East,Technology,183.00,2,0.05,347.70
+ORD-2024-1634,2024-11-19,"Michael Brown",Central,Furniture,184.00,3,0.10,524.40
+ORD-2024-1635,2024-12-20,"Sarah Wilson",South,Office Supplies,185.00,4,0.15,703.00
+ORD-2024-1636,2024-01-21,"David Taylor",West,Technology,186.00,5,0.16,883.50
+ORD-2024-1637,2024-02-22,"Emily Davis",East,Furniture,187.00,6,0.05,1065.90
+ORD-2024-1638,2024-03-23,"Valued Customer",Central,Office Supplies,188.00,7,0.10,1250.20
+ORD-2024-1639,2024-04-24,"Jessica Anderson",South,Technology,189.00,8,0.15,1436.40
+ORD-2024-1640,2024-05-25,"John Doe",Central,Furniture,190.00,1,0.20,180.50
+ORD-2024-1641,2024-06-26,"Jane Smith",Central,Office Supplies,191.00,2,0.05,362.90
+ORD-2024-1642,2024-07-27,"Michael Brown",Central,Technology,192.00,3,0.10,547.20
+ORD-2024-1643,2024-08-28,"Sarah Wilson",South,Furniture,193.00,4,0.15,733.40
+ORD-2024-1644,2024-09-01,"David Taylor",West,Office Supplies,194.00,5,0.24,921.50
+ORD-2024-1645,2024-10-02,"Emily Davis",East,Technology,195.00,6,0.05,1111.50
+ORD-2024-1646,2024-11-03,"Robert Johnson",Central,Furniture,196.00,7,0.10,1303.40
+ORD-2024-1647,2024-12-04,"Jessica Anderson",Central,Office Supplies,197.00,8,0.15,1497.20
+ORD-2024-1648,2024-01-05,"John Doe",West,Technology,198.00,1,0.13,188.10
+ORD-2024-1649,2024-02-06,"Jane Smith",East,Furniture,199.00,2,0.05,378.10
+ORD-2024-1000,2024-03-07,"Michael Brown",Central,Office Supplies,200.00,3,0.10,570.00
