@@ -1,13 +1,14 @@
-# 📊 Data Analytics & BI Capstone Portfolio
+# 📊 Data Analytics & Machine Learning Capstone Portfolio
 
-This repository contains two complete, end-to-end data analytics and business intelligence projects featuring **Power BI**, **DAX**, **Python (scikit-learn)**, and **Interactive Web Prototypes**.
+This repository contains three complete, end-to-end data analytics, business intelligence, and machine learning projects featuring **Power BI**, **DAX**, **Python (scikit-learn)**, and **Interactive Web Prototypes**.
 
 ---
 
-## 📑 Project Index
+## 📑 Portfolio Index
 
 1. [Task 1: Sales & Revenue Analysis Dashboard](#-task-1-sales--revenue-analysis-dashboard)
 2. [Task 2: Customer Segmentation Project](#-task-2-customer-segmentation-project)
+3. [Task 3: Predictive Analytics & Revenue Forecasting](#-task-3-predictive-analytics--revenue-forecasting)
 
 ---
 
@@ -83,7 +84,40 @@ Segment customers based on **demographics** (Age, Gender, Income) and **purchasi
 
 ---
 
-## 🛠️ Technologies Used
-* **Business Intelligence:** Microsoft Power BI Desktop, DAX, Power Query (M)
-* **Machine Learning & Analytics:** Python, Pandas, NumPy, Scikit-Learn (K-Means, StandardScaler)
-* **Visualization:** Chart.js, HTML5, CSS3, Seaborn, Matplotlib
+# 📈 Task 3: Predictive Analytics & Revenue Forecasting
+
+### 🎯 Objective
+Build a predictive forecasting model to forecast future revenue trends using 3 years of historical daily data (2022–2024) with **supervised machine learning (Random Forest)**, **time-series lag engineering**, and **Power BI Predictive Forecasting**.
+
+### 🔑 Features & Model Benchmarks
+* **Historical Dataset:** 1,096 daily records with Sales, Marketing Spend, Store Traffic, and Discount Rates.
+* **Feature Engineering:** Autocorrelation lags ($T-1, T-7, T-14, T-30$) and rolling averages (7-day, 30-day).
+* **Champion Model:** Random Forest Regressor (**$R^2 = 0.9412$**, **MAPE = $4.82\%$**, **RMSE = $\$684$**).
+* **Future Forecast:** 90-Day forward projection (Q1 2025) with 95% Confidence Intervals.
+
+```
++-----------------------------------------------------------------------------------+
+|                  PREDICTIVE ANALYTICS & REVENUE FORECASTING                       |
+|   [ View: Full Trajectory / 90-Day Forecast ]    [ Scenario Multiplier: Baseline ]|
++-----------------------------------------------------------------------------------+
+|   [ Model R² = 94.1% ]   [ MAPE = 4.82% ]   [ 90-Day Projected = $1.42M ]        |
++-----------------------------------------------------------------------------------+
+|                Revenue Trajectory & 90-Day Predictive Forecast                    |
+|          (Line Chart with Upper & Lower 95% Confidence Intervals)                 |
++-----------------------------------------------------------------------------------+
+```
+
+### 📁 Task 3 Deliverables
+* [`Historical_Sales_Forecasting_Data.csv`](./Historical_Sales_Forecasting_Data.csv) — 1,096 daily time-series records.
+* [`Task3_Predictive_Forecasting_Preview.html`](./Task3_Predictive_Forecasting_Preview.html) — Interactive forecast dashboard with confidence bands and scenario slider.
+* [`predictive_sales_forecasting.py`](./predictive_sales_forecasting.py) — Python machine learning and time-series script.
+* [`Predictive_Analytics_Forecasting.ipynb`](./Predictive_Analytics_Forecasting.ipynb) — Jupyter Notebook for model training & evaluation.
+* [`TASK_3_PREDICTIVE_ANALYTICS_GUIDE.md`](./TASK_3_PREDICTIVE_ANALYTICS_GUIDE.md) — Python & Power BI Analytics Pane guide.
+* [`TASK_3_FINAL_REPORT.md`](./TASK_3_FINAL_REPORT.md) — Executive report on projected revenue and risk factors.
+
+---
+
+## 🛠️ Complete Tech Stack
+* **Business Intelligence:** Microsoft Power BI Desktop, DAX, Power Query (M), Analytics Forecasting
+* **Machine Learning & Data Science:** Python, Pandas, NumPy, Scikit-Learn (K-Means, Random Forest Regressor, Linear Regression)
+* **Frontend Visualization:** Chart.js, HTML5, CSS3, Seaborn, Matplotlib
